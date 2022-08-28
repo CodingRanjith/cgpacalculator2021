@@ -110,7 +110,34 @@ def cse():
         sa7=int(input("\033[97;1m[\033[92;1m01\033[97;1m]\033[33m\t\033[93;1mGE3171 PROBLEM SOLVING AND PYTHON PROGRAMMING LABORATORY\033[92;1m2 \t\t: "))        
         cgpa=sa1*3+sa2*3+sa3*4+sa4*4+sa5*3+sa6*2+sa7*2
 
-        print("\n\033[94;1mTHE FIRST SEMESTER CGP IS : \033[94;1m ",cgpa/21)
+        print("\n\033[94;1mTHE FIRST SEMESTER GPA IS : \033[94;1m ",cgpa/21)
+
+    elif(cse==2):
+        system("clear")
+        print("""\033[97;1m[\033[92;1m-\033[97;1m]\033[91;1m NOTE:
+        \t\033[97;1m[\033[92;1m!\033[97;1m]\033[93;1m ONLY ENTERED POINTS......
+        \n\t\033[91;1mLETTER GRADE \t\tGRADE POINTS *
+        \n\t\033[93;1mO (Outstanding)\t\t\033[92;1m10
+        \033[93;1mA+ (Excellent)\t\t\033[92;1m9
+        \033[93;1mA (Very Good)\t\t\033[92;1m8
+        \033[93;1mB+ (Good)\t\t\033[92;1m7
+        \033[93;1mB (AVerage)\t\t\033[92;1m6
+        \033[93;1mC (Satisfactory)\t\033[92;1m5
+        """)
+        print("""\n\033[91;1mSEM\t\tSUBJECT\t\t\t\t\t\tCREDITS\t\tPOINTS *""")
+        sa1=int(input("\n\033[97;1m[\033[92;1m01\033[97;1m]\033[33m\t\033[93;1mHS3251 PROFESSIONAL ENGLISH - 2 \t\t\t\033[92;1m3  \t\t: "))
+        sa2=int(input("\033[97;1m[\033[92;1m01\033[97;1m]\033[33m\t\033[93;1mMA3251 STATISTICS AND NUMERICAL METHODS \t\t\033[92;1m3 \t\t: "))
+        sa3=int(input("\033[97;1m[\033[92;1m01\033[97;1m]\033[33m\t\033[93;1mPH3256 PHYSICS FOR INFORMATION SCIENCE \t\t\t\033[92;1m4 \t\t: "))
+        sa4=int(input("\033[97;1m[\033[92;1m01\033[97;1m]\033[33m\t\033[93;1mBE3251 BASIC ELECTRICAL AND ELECTRONICS ENGINEERING \t\033[92;1m4 \t\t: "))
+        sa5=int(input("\033[97;1m[\033[92;1m01\033[97;1m]\033[33m\t\033[93;1mGE3251 ENGINEERING GRAPHICS \t\t\t\t\033[92;1m3 \t\t: "))
+        sa6=int(input("\033[97;1m[\033[92;1m01\033[97;1m]\033[33m\t\033[93;1mCS3251 PROGRAMMING IN C \t\t\t\t\033[92;1m2 \t\t: "))
+        sa7=int(input("\033[97;1m[\033[92;1m01\033[97;1m]\033[33m\t\033[93;1mGE3271 ENGINEERING PRACTICS LABORATORY \t\t\t\033[92;1m2 \t\t: "))
+        sa8=int(input("\033[97;1m[\033[92;1m01\033[97;1m]\033[33m\t\033[93;1mCS3271 PROGRAMMING IN C LABORATORY \t\t\t\033[92;1m2 \t\t: "))        
+        cgpa=sa1*2+sa2*4+sa3*3+sa4*3+sa5*4+sa6*3+sa7*2+sa8*2
+
+        print("\n\033[94;1mTHE SECOND SEMESTER GPA IS : \033[94;1m ",cgpa/23)
+        
+
 
 
     elif(cse==2):
